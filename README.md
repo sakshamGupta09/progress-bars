@@ -4,7 +4,7 @@
 
 # Project description
 
-Linear progress bars, highly customizable built with HTML, CSS, Javascript. Three variants are added which are determinate, determinate with label, indeterminate.
+Linear progress bars, highly customizable built with HTML, CSS, Javascript. Three variants are added which are determinate, determinate with label and indeterminate.
 
 # Key Features
 

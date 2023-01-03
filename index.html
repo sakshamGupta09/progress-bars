@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Progress bars" />
+    <meta name="description" content="Progress bars by Saksham Gupta" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Progress bars" />
+    <meta property="og:url" content="https://sakshamgupta.vercel.app/" />
+    <meta property="og:description" content="Progress bars by Saksham Gupta" />
+    <meta
+      property="og:image"
+      content="https://sakshamgupta.vercel.app/assets/images/manOnTable.svg"
+    />
+    <meta property="og:site_name" content="Progress bars" />
+    <meta name="twitter:title" content="Progress bars by Saksham Gupta" />
+    <meta name="twitter:description" content="Progress bars by Saksham Gupta" />
+    <meta
+      name="twitter:image"
+      content="https://sakshamgupta.vercel.app/assets/images/manOnTable.svg"
+    />
+    <title>Progress bars</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <section class="container">
+      <!-- Determinate -->
+      <div class="card">
+        <h3 class="card__title">Determinate Progress bar</h3>
+        <div>
+          <input type="range" min="0" max="100" value="0" step="10" />
+        </div>
+        <div class="progress__container">
+          <span class="progress__bar progress__bar--determinate"></span>
+        </div>
+      </div>
+      <!-- Determinate with label -->
+      <div class="card">
+        <h3 class="card__title">Determinate Progress bar with label</h3>
+        <div>
+          <input type="range" min="0" max="100" value="0" step="10" />
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="progress__container w-100">
+            <span class="progress__bar progress__bar--determinate"></span>
+          </div>
+          <div class="progress__label">0%</div>
+        </div>
+      </div>
+      <!-- Indeterminate  -->
+      <div class="card">
+        <h3 class="card__title">Indeterminate Progress bar</h3>
+        <div class="progress__container">
+          <span class="progress__bar progress__bar--indeterminate"></span>
+        </div>
+      </div>
+    </section>
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>

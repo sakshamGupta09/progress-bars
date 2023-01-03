@@ -1,0 +1,5 @@
+:root {
+  --progressBarBgColor: rgb(167, 202, 237);
+  --progressBarColor: rgb(25, 118, 210);
+  --progressBarHeight: 4px;
+}
